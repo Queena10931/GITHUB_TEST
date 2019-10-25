@@ -9,5 +9,6 @@
 </head>
 <body>
 	<h3><a href='<c:url value="/bugfixServlet"/>'>bugfixServlet</a></h3>
-</body>
-</html>
+	<h3>GitHub Test</h3>
+	<h3><a href='<c:url value="/FutureXServlet" />'>/FutureXServlet</a></h3>
+	<h3><a href='<c:url value="/FutureXXXServlet" />'>/FutureXXXServlet</a></h3>
