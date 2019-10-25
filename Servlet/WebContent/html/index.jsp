@@ -10,5 +10,6 @@
 <body>
 	<h3>GitHub Test</h3>
 	<h3><a href='<c:url value="/FutureXServlet" />'>/FutureXServlet</a></h3>
+	<h3><a href='<c:url value="/FutureXXXServlet" />'>/FutureXXXServlet</a></h3>
 </body>
 </html>

@@ -8,11 +8,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@WebServlet("/FutureXServlet")
-public class FutureXServlet extends HttpServlet {
+@WebServlet("/FutureXXXServlet")
+public class FutureXXXServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    public FutureXServlet() {
+    public FutureXXXServlet() {
         super();
        
     }
@@ -20,8 +20,7 @@ public class FutureXServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		response.setContentType("text/html");
-		response.getWriter().append("<h3>FutureXServlet Served at: ").append("</h3>");
+		response.getWriter().append("FutureXXXServlet Served at: ").append(request.getContextPath());
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
