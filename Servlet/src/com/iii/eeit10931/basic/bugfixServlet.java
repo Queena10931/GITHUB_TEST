@@ -20,7 +20,9 @@ public class bugfixServlet extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	
-		response.getWriter().append("XXXXXbugfixServlet Served at: ").append(request.getContextPath()).append("模擬另一個環境重新上傳bugfixServlet Served at: ");
+		response.getWriter().append("XXXXXbugfixServlet Served at: ")
+		.append(request.getContextPath()).append("模擬另一個環境重新上傳bugfixServlet Served at: ")
+		.append("測試第三次");
 	}
 
 
